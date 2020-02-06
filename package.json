@@ -1,0 +1,13 @@
+{
+  "name": "choose-port",
+  "version": "0.1.0",
+  "description": "Choose an available port",
+  "main": "index.js",
+  "repository": "https://github.com/andrelmlins/choose-port",
+  "author": "André Lins",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  }
+}
