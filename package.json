@@ -3,11 +3,26 @@
   "version": "0.1.0",
   "description": "Choose an available port",
   "main": "index.js",
+  "module": "index.js",
   "repository": "https://github.com/andrelmlins/choose-port",
-  "author": "André Lins",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
+  "homepage": "https://github.com/andrelmlins/choose-port",
   "license": "MIT",
   "private": false,
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrelmlins/choose-port/issues"
+  },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "keywords": [
+    "choose",
+    "port",
+    "server",
+    "host"
+  ]
 }
