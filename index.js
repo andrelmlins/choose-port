@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const net = require("net");
+const net = require('net');
 
 /**
  * Choose an available port
@@ -15,11 +15,11 @@ const choosePort = (portInitial, host, callback) => {
 
   server.listen(portInitial, host);
 
-  server.on("error", () => {
+  server.on('error', () => {
     choosePort(portInitial + 1, host, newPort => callback(newPort));
   });
 
-  server.on("listening", () => {
+  server.on('listening', () => {
     server.close();
     callback(portInitial);
   });
