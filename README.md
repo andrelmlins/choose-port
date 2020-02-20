@@ -2,7 +2,7 @@
 
 Choose an available port
 
-[![npm version](https://badge.fury.io/js/choose-port.svg)](https://www.npmjs.com/package/choose-port) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/choose-port/blob/master/LICENSE) [![Build Status](https://travis-ci.com/andrelmlins/choose-port.svg?branch=master)](https://travis-ci.com/andrelmlins/choose-port)
+[![npm version](https://badge.fury.io/js/choose-port.svg)](https://www.npmjs.com/package/choose-port) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/choose-port/blob/master/LICENSE) [![Build Status](https://travis-ci.com/andrelmlins/choose-port.svg?branch=master)](https://travis-ci.com/andrelmlins/choose-port) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/choose-port.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/choose-port/context:javascript)
 
 ## Install
 
