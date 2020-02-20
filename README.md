@@ -22,7 +22,7 @@ yarn add choose-port
 const choosePort = require("choose-port");
 
 choosePort(8000, "127.0.0.1", port => {
-  console.log(port);
+  console.log("Chosen port:", port);
 });
 ```
 
