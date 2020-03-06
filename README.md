@@ -18,12 +18,24 @@ yarn add choose-port
 
 ## Usage
 
-```js
-const choosePort = require("choose-port");
+**Call Async**
 
-choosePort(8000, "127.0.0.1", port => {
-  console.log("Chosen port:", port);
+```js
+const choosePort = require('choose-port');
+
+choosePort(8000, '127.0.0.1', portValid => {
+  console.log('Chosen port:', portValid);
 });
+```
+
+**Call Sync**
+
+```js
+const { choosePortSync } = require('choose-port');
+
+const portValid = choosePortSync(8000, '127.0.0.1');
+
+console.log(portValid);
 ```
 
 ## NPM Statistics

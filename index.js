@@ -25,4 +25,23 @@ const choosePort = (portInitial, host, callback) => {
   });
 };
 
-module.exports = choosePort;
+/**
+ * Choose async an available port
+ * @param  {Number} portInitial Initial port
+ * @param  {String} host Host
+ */
+const choosePortSync = (portInitial, host) => {
+  let port;
+  
+  choosePort(portInitial, host, newPort => {
+    port = newPort;
+  });
+
+  require('deasync').loopWhile(() => !port);
+
+  return port;
+};
+
+exports.choosePort = choosePort;
+exports.choosePortSync = choosePortSync;
+module.exports = exports.choosePort;

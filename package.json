@@ -24,5 +24,8 @@
     "port",
     "server",
     "host"
-  ]
+  ],
+  "dependencies": {
+    "deasync": "^0.1.19"
+  }
 }
