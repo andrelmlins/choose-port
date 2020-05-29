@@ -1,6 +1,6 @@
 {
   "name": "choose-port",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Choose an available port",
   "main": "index.js",
   "module": "index.js",
@@ -12,6 +12,7 @@
   "private": false,
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md"
   ],
   "bugs": {
