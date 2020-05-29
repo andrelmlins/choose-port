@@ -32,7 +32,7 @@ const choosePort = (portInitial, host, callback) => {
  */
 const choosePortSync = (portInitial, host) => {
   let port;
-  
+
   choosePort(portInitial, host, newPort => {
     port = newPort;
   });
