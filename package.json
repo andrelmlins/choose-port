@@ -4,6 +4,7 @@
   "description": "Choose an available port",
   "main": "index.js",
   "module": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/andrelmlins/choose-port",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "homepage": "https://github.com/andrelmlins/choose-port",
