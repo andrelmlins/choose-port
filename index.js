@@ -42,6 +42,6 @@ const choosePortSync = (portInitial, host) => {
   return port;
 };
 
-exports.choosePort = choosePort;
-exports.choosePortSync = choosePortSync;
-module.exports = exports.choosePort;
+module.exports = choosePort;
+module.exports.choosePort = choosePort;
+module.exports.choosePortSync = choosePortSync;

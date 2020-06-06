@@ -1,5 +1,5 @@
 declare module 'choose-port' {
-  type Callback = (portValid: string) => void;
+  type Callback = (portValid: Number) => void;
 
   export function choosePort(
     portInitial: Number,
@@ -8,4 +8,6 @@ declare module 'choose-port' {
   ): void;
 
   export function choosePortSync(portInitial: Number, host: string): string;
+
+  export default choosePort;
 }
